@@ -2,7 +2,7 @@ const name = 'BS';
 let age = 25;
 const hasHobby = true;
 
-const summarUser = function(userName, userAge, userHasHobby){
+const summarUser = (userName, userAge, userHasHobby) => {
     return (
         'Name is ' + 
         userName + 
