@@ -12,5 +12,8 @@ const summarUser = (userName, userAge, userHasHobby) => {
         userHasHobby
     );
 };
+const simple_add = (a, b) => a + b;
+
 
 console.log(summarUser(name, age, hasHobby));
+console.log(simple_add(5, 6));
